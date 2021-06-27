@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'Verdana';
+    src: url(fonts/ofont.ru_Verdana\ Ref.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .title, .main, .about, .balloons, .design, .slider, .encourage, .footer {
+    width: 100%;
+}
+
+.header {
+    height: 125px;
+    background-color: rgba(163, 76, 145, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.logo-info {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-info > img {
+    height: 60%;
+}
+
+.logo-address {
+    padding-top: 100px;
+    height: 100%;
+    font-family: Verdana;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.li-point {
+    list-style-type: none;
+    color: #FFEC86;
+    white-space: nowrap;
+}
+
+.menu-box {
+    height: 100%;
+    width: 40%;
+    height: 100%;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu > li {
+    margin-left: 80px;
+    font-size: 28px;
+}
+
+.title {
+    background-image: url(img/title.svg);
+    background-repeat: no-repeat;
+    height: 860px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+.title-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-type {
+    height: 50%;
+    padding-top: 10%;
+    padding-left: 0;
+    margin: 0;
+    /* width: 100%; */
+}
+
+.title-point {
+    list-style-type: none;
+    color: rgba(255, 237, 144, 1);
+    font-size: 72px;
+    margin-bottom: 80px;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+}
+
+.title-text {
+    list-style-type: none;
+    font-size: 20px;
+    color: rgba(255, 216, 241, 1);
+}
+
+.boy {
+    width: 750px;
+    height: 750px;
+    position: relative;
+    z-index: 0;
+}
+
+.main {
+    margin-top: -250px;
+    background-image: url(img/main.svg);
+    background-repeat: no-repeat;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+
+.main-wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title-type {
+    width: 100%;
+    height: 100px;
+    padding-top: 200px;
+    font-size: 45px;
+    color: #853A76;
+    font-weight: bold;
+}
+
+.main-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px 0 150px;
+    height: 350px;
+}
+
+.icons {
+    width: 180px;
+    text-align: center;
+}
+
+.icon-type {
+    color: #953982;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 33px;
+
+}
+
+.main-icons > div > img {
+    margin-bottom: 30px;
+    height: 120px;
+}
+
+.my-type {
+    width: 40%;
+    font-size: 20px;
+    line-height: 33px;
+    color: #853A76;
+}
+
+.about {
+    background-image: url(img/about.png);
+    background-repeat: no-repeat;
+    height: 1140px;
+    margin-top: -900px;
+    background-size: 100% 1140px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    z-index: 5;
+}
+
+.about-me {
+    width: 35%;
+    margin-right: 10%;
+    margin-bottom: 25%;
+}
+
+.about-us {
+    color: #853A76;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.about-us-type {
+    font-size: 20px;
+    line-height: 33px;
+    color: rgba(133, 58, 118, 1);
+}
+
+.balloons {
+    background-image: url(img/balloons.svg);
+    background-repeat: no-repeat;
+    margin-top: -360px;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 4;
+}
+
+.balloons-wrapper {
+    width: 80%;
+    display: flex;
+}
+
+.balloons-type {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-balloons-type {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 50px;
+    color: #FFD910;
+    margin-bottom: 50px
+}
+
+.second-balloons-type {
+    font-size: 20px;
+    width: 70%;
+    line-height: 33px;
+    color: #FFD910;
+}
+
+.design {
+    background-image: url(img/design.svg);
+    background-repeat: no-repeat;
+    height: 1150px;
+}
+
+.slider {
+    background-image: url(img/slider.svg);
+    background-repeat: no-repeat;
+    height: 1100px;
+}
+
+.encourage {
+    background-image: url(img/encourage.png);
+    height: 1140px;
+    background-size: 100% 1140px;
+}
+
+.footer {
+    display: flex;
+    height: 500px;
+}
+
+.map {
+    height: 100%;
+    width: 60%;
+
+}
+
+.address {
+    background-color: rgba(163, 76, 145, 1);
+    height: 100%;
+    width: 40%;
+}
